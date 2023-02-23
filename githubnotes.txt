@@ -5,3 +5,8 @@ Reference:
   https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port
   https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
   
+Always remember - when doing ssh via secure channel use the following command
+
+$ git clone ssh://git@ssh.github.com:443/YOUR-USERNAME/YOUR-REPOSITORY.git
+
+Take note of the url. Its not the same as the one given from github.
